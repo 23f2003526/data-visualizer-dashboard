@@ -1,0 +1,12 @@
+# World Happiness Dashboard
+
+This web dashboard visualizes world happiness scores over time for different countries. It features a dropdown to select a country, displays a trend chart of happiness scores, and shows the latest happiness score in a colored card. Built with HTML, CSS, and JavaScript, utilizing Chart.js for chart rendering.
+
+Usage:
+Open `index.html` in a web browser. Select a country from the dropdown to see its happiness trend and current score.
+
+Data:
+Sample dataset embedded in the script. Replace with actual data as needed.
+
+Dependencies:
+- Chart.js library included via CDN.
