@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>World Happiness Dashboard</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<h1>World Happiness Scores</h1>
+<div class="dashboard">
+  <div class="controls">
+    <label for="countrySelect">Select Country:</label>
+    <select id="countrySelect"></select>
+  </div>
+  <div class="card" id="scoreCard">
+    <h2>Current Happiness Score</h2>
+    <p id="score">--</p>
+  </div>
+  <div class="chart-container">
+    <canvas id="happyChart"></canvas>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
